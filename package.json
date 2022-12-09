@@ -1,0 +1,22 @@
+{
+  "name": "minesweeper",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm turbo run dev",
+    "build": "pnpm turbo run build",
+    "preview": "pnpm turbo run preview",
+    "lint": "eslint --ext .ts,.vue web/src packages/**/src",
+    "lint-fix": "eslint --ext .ts,.vue --fix web/src packages/**/src"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "turbo": "^1.1.10",
+    "typescript": "^4.6.3"
+  }
+}

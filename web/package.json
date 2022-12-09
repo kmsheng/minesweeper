@@ -1,0 +1,35 @@
+{
+  "name": "ch7/7.10/web",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "e2e": "cypress run",
+    "e2e-headed": "cypress run --headed",
+    "dev-e2e": "cypress open"
+  },
+  "dependencies": {
+    "@ctci/minesweeper": "*",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.17.0",
+    "@cypress/vite-dev-server": "^2.2.2",
+    "@cypress/vue": "^3.1.0",
+    "@testing-library/vue": "^6.5.1",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/compiler-sfc": ">= 3",
+    "autoprefixer": "^10.4.4",
+    "cypress": "9.6.0",
+    "happy-dom": "^2.55.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.2",
+    "vite-plugin-checker": "^0.4.6",
+    "vitest": "^0.9.4",
+    "vue-tsc": "^0.34.7"
+  }
+}
